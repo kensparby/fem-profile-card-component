@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import "reset.css";
+
+// COLORS
+$color-p-darkcyan: hsl(185, 75%, 39%);
+$color-p-vdarkdesatblue: hsl(229, 23%, 23%);
+$color-p-darkgrayblue: hsl(227, 10%, 46%);
+$color-n-darkgray: hsl(0, 0%, 59%);
+
+// TYPOGRAPHY
+$text-body: 18px;
+
+body {
+  min-height: 100vh;
+  font-size: $text-body;
+  background-color: $color-p-darkcyan;
+}
